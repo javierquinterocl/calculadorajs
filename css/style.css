@@ -13,7 +13,7 @@ body .open{
     background-color: #ffffff;
 }
 .cal{
-    height: 500px;
+    height: 100%;
     width: 55%;
     display: flex;
     justify-content: center;
@@ -30,33 +30,68 @@ body .open{
 
 }
 #fondo1.open{
-    background-color: #240041;
+    background-color: #233142;
 }
 #boton.open{
     background-color: #e7eaf6;
 
 }
 #input11{
+    background-color: #fff;
     color: #36626a;
 }
 #input11.open{
     color: #e7eaf6;
+    background-color: #233142;
+
 }
 .cal form{
     display: flex;
     backdrop-filter: blur(5px);
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
 .input1 input{
     width: 100%;
-    height: 280px;
-    background-color: rgba(255, 255, 255, 0.055);
+    height: 230px;
+
     font-size: 3.9rem;
     color: #36626a;
     border: none;
     
+}
+.colum1{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.colum2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.colum3{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.colum4{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.colum5{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .colum1 input{
     margin: 10px;
@@ -139,12 +174,13 @@ body .open{
     display: flex;
     position: absolute;
     align-items: center;
-    padding: 11px;
+    justify-content: center;
+    
     right: 0;
     top: 23px;
     border: none;
     width: 15%;
-    height: 7%;
+    height: 9%;
     border: 2px solid #fff;
     border-radius: 50%;
     background-color: #5f5dbd;
@@ -160,32 +196,32 @@ body .open{
     }
     .colum1 input{
         width: 17%;
-        margin: 0 2px 0 16px;
+        
         flex-wrap: wrap;
 
     }
 
     .colum2 input{
         width: 17%;
-        margin: 0 2px 0 16px;
+        
         flex-wrap: wrap;
 
     }
     .colum3 input{
         width: 17%;
-        margin: 0 2px 0 16px;
+        
         flex-wrap: wrap;
 
     }
     .colum4 input{
         width: 17%;
-        margin: 0 2px 0 16px;
+       
         flex-wrap: wrap;
 
     }
     .colum5 input{
         width: 17%;
-        margin: 0 2px 0 16px;
+       
         flex-wrap: wrap;
 
     }
