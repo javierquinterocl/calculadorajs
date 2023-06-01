@@ -5,13 +5,10 @@
 }
 body{
     font-family: sans-serif;
-    background-color: #113f67;
     
     
 }
-body .open{
-    background-color: #ffffff;
-}
+
 .cal{
     height: 100%;
     width: 55%;
