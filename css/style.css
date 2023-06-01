@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #113f67;
+    
+    
+}
+body .open{
+    background-color: #ffffff;
+}
+.cal{
+    height: 500px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 20%;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+#fondo1{
+    background-color: #ffffff;
+
+}
+#fondo1.open{
+    background-color: #240041;
+}
+#boton.open{
+    background-color: #e7eaf6;
+
+}
+#input11{
+    color: #36626a;
+}
+#input11.open{
+    color: #e7eaf6;
+}
+.cal form{
+    display: flex;
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.input1 input{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.055);
+    font-size: 3.9rem;
+    color: #36626a;
+    border: none;
+    
+}
+.colum1 input{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 50px;
+    height: 55px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.0rem;
+}
+.colum2 input{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 50px;
+    height: 55px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.0rem;
+}
+.colum3 input{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 50px;
+    height: 55px;
+    flex-wrap: wrap;
+    font-weight: 500;
+   border: none;
+    border-radius: 50%;
+    font-size: 1.0rem;
+}
+.colum4 input{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 50px;
+    height: 55px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.0rem;
+}
+.colum5 input{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 50px;
+    height: 55px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.0rem;
+}
+
+#click{
+    background-color: #38598b;
+    color: #ffb6b9;
+}
+#click2{
+    background-color: #a2a8d3;
+    color: #2772db;
+}
+#click3{
+    background-color: #113f67;
+    color:#8dc6ff;
+}
+#numeroclick{
+    background-color: #e7eaf6;
+    color: #05004e;
+}
+#boton{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 11px;
+    right: 0;
+    top: 23px;
+    border: none;
+    width: 15%;
+    height: 7%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #5f5dbd;
+
+}
+
+
+@media (max-width:400px){
+    .cal{
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+    .colum1 input{
+        width: 17%;
+        margin: 0 2px 0 16px;
+        flex-wrap: wrap;
+
+    }
+
+    .colum2 input{
+        width: 17%;
+        margin: 0 2px 0 16px;
+        flex-wrap: wrap;
+
+    }
+    .colum3 input{
+        width: 17%;
+        margin: 0 2px 0 16px;
+        flex-wrap: wrap;
+
+    }
+    .colum4 input{
+        width: 17%;
+        margin: 0 2px 0 16px;
+        flex-wrap: wrap;
+
+    }
+    .colum5 input{
+        width: 17%;
+        margin: 0 2px 0 16px;
+        flex-wrap: wrap;
+
+    }
+}
