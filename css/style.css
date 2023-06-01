@@ -45,8 +45,9 @@ body{
 .cal form{
     display: flex;
     backdrop-filter: blur(5px);
-    flex-direction: column;
+    
     width: 100%;
+    height: 100%;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
