@@ -10,46 +10,51 @@
 <body >
     <div class="cal" >
         <form name="numeros" id="fondo1">
-            <div id="boton">
-                <i class="fa-solid fa-moon fa-2xl" style="color: #ffd43b;"></i>
+            
+            <div class="formato">
+                <div id="boton">
+                    <i class="fa-solid fa-moon fa-2xl" style="color: #ffd43b;"></i>
+                </div>
+                <div class="input1">
+                    <input type="textfield" name="ans" value="" autocomplete="off" class="" id="input11" disabled><br>
+                </div>
+                <div class="colum1">
+                    <input type="reset" value="C" id="click2">
+                    <input type="button" value="(" id="click2" onclick="document.numeros.ans.value+='('">
+                    <input type="button" value=")" id="click2" onclick="document.numeros.ans.value+=')'">
+                    <input type="button" value="%" id="click2"  onclick="document.numeros.ans.value+='%'">
+                </div>
+                <br>
+                <div class="colum2">
+                    <input type="button" value="7" id="numeroclick" onclick="document.numeros.ans.value+='7'">
+                    <input type="button" value="8" id="numeroclick"  onclick="document.numeros.ans.value+='8'">
+                    <input type="button" value="9" id="numeroclick"   onclick="document.numeros.ans.value+='9'">
+                    <input type="button" value="+" id="click"  onclick="document.numeros.ans.value+='+'">
+                </div>
+                <br>
+                <div class="colum3">
+                    <input type="button" value="4" id="numeroclick" onclick="document.numeros.ans.value+='4'">
+                    <input type="button" value="5" id="numeroclick" onclick="document.numeros.ans.value+='5'">
+                    <input type="button" value="6" id="numeroclick" onclick="document.numeros.ans.value+='6'">
+                    <input type="button" value="-" id="click"  onclick="document.numeros.ans.value+='-'">
+                </div>
+                <br>
+                <div class="colum4">
+                    <input type="button" value="1" id="numeroclick"   onclick="document.numeros.ans.value+='1'">
+                   <input type="button" value="2" id="numeroclick"  onclick="document.numeros.ans.value+='2'">
+                   <input type="button" value="3" id="numeroclick"  onclick="document.numeros.ans.value+='3'">
+                   <input type="button" value="x" id="click"  onclick="document.numeros.ans.value+='*'">
+                </div>
+                <br>
+                <div class="colum5">
+                    <input type="button" value="0"  onclick="document.numeros.ans.value+='0'">
+                    <input type="button" value="." id="click3"  onclick="document.numeros.ans.value+='.'">
+                    <input type="button" value="=" id="click3" onclick="document.numeros.ans.value = eval(document.numeros.ans.value)">
+                    <input type="button" value="/ " id="click"  onclick="document.numeros.ans.value+='/'">
+                </div>
+
             </div>
-            <div class="input1">
-                <input type="textfield" name="ans" value="" autocomplete="off" class="" id="input11" disabled><br>
-            </div>
-            <div class="colum1">
-                <input type="reset" value="C" id="click2">
-                <input type="button" value="(" id="click2" onclick="document.numeros.ans.value+='('">
-                <input type="button" value=")" id="click2" onclick="document.numeros.ans.value+=')'">
-                <input type="button" value="%" id="click2"  onclick="document.numeros.ans.value+='%'">
-            </div>
-            <br>
-            <div class="colum2">
-                <input type="button" value="7" id="numeroclick" onclick="document.numeros.ans.value+='7'">
-                <input type="button" value="8" id="numeroclick"  onclick="document.numeros.ans.value+='8'">
-                <input type="button" value="9" id="numeroclick"   onclick="document.numeros.ans.value+='9'">
-                <input type="button" value="+" id="click"  onclick="document.numeros.ans.value+='+'">
-            </div>
-            <br>
-            <div class="colum3">
-                <input type="button" value="4" id="numeroclick" onclick="document.numeros.ans.value+='4'">
-                <input type="button" value="5" id="numeroclick" onclick="document.numeros.ans.value+='5'">
-                <input type="button" value="6" id="numeroclick" onclick="document.numeros.ans.value+='6'">
-                <input type="button" value="-" id="click"  onclick="document.numeros.ans.value+='-'">
-            </div>
-            <br>
-            <div class="colum4">
-                <input type="button" value="1" id="numeroclick"   onclick="document.numeros.ans.value+='1'">
-               <input type="button" value="2" id="numeroclick"  onclick="document.numeros.ans.value+='2'">
-               <input type="button" value="3" id="numeroclick"  onclick="document.numeros.ans.value+='3'">
-               <input type="button" value="x" id="click"  onclick="document.numeros.ans.value+='*'">
-            </div>
-            <br>
-            <div class="colum5">
-                <input type="button" value="0"  onclick="document.numeros.ans.value+='0'">
-                <input type="button" value="." id="click3"  onclick="document.numeros.ans.value+='.'">
-                <input type="button" value="=" id="click3" onclick="document.numeros.ans.value = eval(document.numeros.ans.value)">
-                <input type="button" value="/ " id="click"  onclick="document.numeros.ans.value+='/'">
-            </div>
+            
          </form>
     </div>
     <script src="https://kit.fontawesome.com/625d43fca3.js" crossorigin="anonymous"></script>
