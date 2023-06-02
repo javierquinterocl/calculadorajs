@@ -27,7 +27,7 @@ body{
 
 }
 #fondo1.open{
-    background-color: #000000;
+    background-color: #393e46;
 }
 #boton.open{
     background-color: #e7eaf6;
@@ -39,7 +39,7 @@ body{
 }
 #input11.open{
     color: #e7eaf6;
-    background-color: #000000;
+    background-color: #393e46;
 
 }
 #numeroclick.open{
@@ -48,7 +48,7 @@ body{
 
 }
 .cal form{
-    display: table-column;
+    display: flex;
     backdrop-filter: blur(5px);
     width: 100%;
     flex-wrap:wrap;
@@ -57,7 +57,7 @@ body{
 }
 .input1 input{
     width: 100%;
-    height: 320px;
+    height: 220px;
     padding-left: 16px;
 
     font-size: 3.9rem;
@@ -219,32 +219,32 @@ body{
     }
     .colum1 input{
         width: 17%;
-        
+        height: 70px;
         flex-wrap: wrap;
 
     }
 
     .colum2 input{
         width: 17%;
-        
+        height: 70px;
         flex-wrap: wrap;
 
     }
     .colum3 input{
         width: 17%;
-        
+        height: 70px;
         flex-wrap: wrap;
 
     }
     .colum4 input{
         width: 17%;
-       
+        height: 70px;
         flex-wrap: wrap;
 
     }
     .colum5 input{
         width: 17%;
-       
+        height: 70px;
         flex-wrap: wrap;
 
     }
