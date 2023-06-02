@@ -76,6 +76,7 @@ body{
 }
 .colum1{
     width: 100%;
+    margin: 0 4px;
     border-bottom: 1px #ffffff46 solid;
     padding-bottom: 5px;
 
@@ -88,6 +89,7 @@ body{
 .colum2{
     width: 100%;
     height: 9% ;
+    margin: 0 4px;
     margin-bottom: 11px;
     display: flex;
     justify-content:space-between;
@@ -96,6 +98,7 @@ body{
 .colum3{
     width: 100%;
     height: 9% ;
+    margin: 0 4px;
     margin-bottom: 11px;
     display: flex;
     justify-content:space-between;
@@ -104,6 +107,7 @@ body{
 .colum4{
     width: 100%;
     display: flex;
+    margin: 0 4px;
     margin-bottom: 11px;
     height: 9% ;
     justify-content:space-between;
@@ -113,6 +117,7 @@ body{
 .colum5{
     width: 100%;
     display: flex;
+    margin: 0 4px;
     margin-bottom: 4px;
     height: 9% ;
     justify-content:space-between;
@@ -211,7 +216,7 @@ body{
 }
 
 
-@media (max-width:400px){
+@media (max-width:500px){
     .cal{
         width: 100%;
         height: 100%;
