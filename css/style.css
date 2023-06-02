@@ -57,7 +57,7 @@ body{
 }
 .input1 input{
     width: 100%;
-    height: 220px;
+    height: 170px;
     padding-left: 16px;
 
     font-size: 3.9rem;
@@ -76,34 +76,37 @@ body{
 }
 .colum1{
     width: 100%;
+    border-bottom: 1px #ffffff46 solid;
+    padding-bottom: 5px;
+
     height: 9% ;
     display: flex;
-    margin-bottom: 30px;
-    justify-content:center;
+    margin-bottom: 11px;
+    justify-content:space-between;
     align-items: center;
 }
 .colum2{
     width: 100%;
     height: 9% ;
-    margin-bottom: 23px;
+    margin-bottom: 11px;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 .colum3{
     width: 100%;
     height: 9% ;
-    margin-bottom: 23px;
+    margin-bottom: 11px;
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 .colum4{
     width: 100%;
     display: flex;
-    margin-bottom: 23px;
+    margin-bottom: 11px;
     height: 9% ;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
    
 }
@@ -112,23 +115,22 @@ body{
     display: flex;
     margin-bottom: 4px;
     height: 9% ;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 .colum1 input{
-    margin: 0 10px 0 10px;
     display: inline-flex;
     justify-content: center ;
     width: 50px;
     height: 55px;
     flex-wrap: wrap;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     border-radius: 50%;
     font-size: 1.0rem;
 }
 .colum2 input{
-    margin:  0 10px;
+    
     display: inline-flex;
     justify-content: center ;
     width: 50px;
@@ -140,7 +142,7 @@ body{
     font-size: 1.0rem;
 }
 .colum3 input{
-    margin: 0 10px;
+    
     display: inline-flex;
     justify-content: center ;
     width: 50px;
@@ -152,7 +154,7 @@ body{
     font-size: 1.0rem;
 }
 .colum4 input{
-    margin: 0 10px;
+    
     display: inline-flex;
     justify-content: center ;
     width: 50px;
@@ -164,7 +166,7 @@ body{
     font-size: 1.0rem;
 }
 .colum5 input{
-    margin: 0 10px;
+    
     display: inline-flex;
     justify-content: center ;
     width: 50px;
@@ -218,33 +220,33 @@ body{
         bottom: 0;
     }
     .colum1 input{
-        width: 17%;
-        height: 70px;
+        width: 21%;
+        height: 84px;
         flex-wrap: wrap;
 
     }
 
     .colum2 input{
-        width: 17%;
-        height: 70px;
+        width: 21%;
+        height: 80px;
         flex-wrap: wrap;
 
     }
     .colum3 input{
-        width: 17%;
-        height: 70px;
+        width: 21%;
+        height: 80px;
         flex-wrap: wrap;
 
     }
     .colum4 input{
-        width: 17%;
-        height: 70px;
+        width: 21%;
+        height: 80px;
         flex-wrap: wrap;
 
     }
     .colum5 input{
-        width: 17%;
-        height: 70px;
+        width: 21%;
+        height: 80px;
         flex-wrap: wrap;
 
     }
